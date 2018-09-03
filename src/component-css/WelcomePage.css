@@ -1,8 +1,64 @@
+
+/* Welcome Header Section */
 .welcome-header{
     font-family: 'Amatic SC', cursive;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto 40px;;
+    background: 
+    linear-gradient(
+    rgba(255, 255, 255, 0.4), 
+    rgba(58, 63, 68, 0.6)
+    ),
+    url('https://images.unsplash.com/photo-1504280539878-538b933c05b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f5ab5c7acc7188c3128f7974d3e504e5&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb');
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transform: skewX(-15deg);
+
 }
 
+.welcome-header h1{
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 10px;
+    text-shadow:2px 2px #D5AD6D;
+
+}
+
+.welcome-header h2{
+    font-weight: 900;
+    font-size: 55px;
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #D5AD6D;
+    text-shadow:2px 2px black;
+    
+
+}
+
+.welcome-header h3{
+    font-weight: 600;
+    font-size: 26px;
+    margin-top: 10px;
+    color: black;
+    text-shadow:2px 2px #D5AD6D;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.521), 
+        rgba(177, 172, 172, 0.582)
+        )
+
+}
+
+
+/* Welcome Info Section */
 .welcome-info{
     font-family: 'Indie Flower', cursive;
+    
 
 }

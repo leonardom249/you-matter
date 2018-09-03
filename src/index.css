@@ -3,4 +3,18 @@ body {
   margin: 0 auto;
   max-width: 50em;
   font-family: 'Abel', sans-serif;
+  background: 
+    linear-gradient(
+      rgba(58, 63, 68, 0.205),
+      rgba(240, 177, 76, 0.74)
+    ),
+    url('https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fc27ce5f453203e4b82d163c181339ca&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    line-height: 1.5;
+    padding: 4em 1em;
 }
+
+
