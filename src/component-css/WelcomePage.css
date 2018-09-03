@@ -59,6 +59,12 @@
 /* Welcome Info Section */
 .welcome-info{
     font-family: 'Indie Flower', cursive;
-    
+    text-align: center;
 
+}
+
+.welcome-tagline{
+    font-size: 20px;   
+    text-align: center;
+ 
 }

@@ -21,7 +21,10 @@ export default class WelcomePage extends Component{
                     <p>This site will serve as a place to post good.  To show happy news, to randomly and anonymously call out people for their good acts when they didn't even realize how much that good act meant.  This site is a place to uplift us all and keep us going through this crazy thing we call life. </p>
                 </div>
                 <div className="welcome-to-come">
-                    <p><em>Thank you for taking the time to read about our upcoming site. YMTTW will be up and running Winter 2018 with lots of good and uplifting things.  Until then, if you need some uplifting moments, please checkout <a href="https://www.huffingtonpost.com/topic/good-news">Huffington Post's Good News Section</a> and always remember that if you have any suicidal thoughts or tendencies, you aren't alone in this, be strong and call <a href="https://suicidepreventionlifeline.org/">1-800-273-8255</a> or 911.  Remember <strong>You Matter To This World.</strong></em></p>
+                    <p><em>Thank you for taking the time to read about our upcoming site. YMTTW will be up and running Winter 2018 with lots of good and uplifting things.  Until then, if you need some uplifting moments, please checkout <a href="https://www.huffingtonpost.com/topic/good-news">Huffington Post's Good News Section</a> and always remember that if you have any suicidal thoughts or tendencies, you aren't alone in this, be strong and call <a href="https://suicidepreventionlifeline.org/">1-800-273-8255</a> or 911. </em></p>
+                </div>
+                <div className="welcome-tagline">
+                    <p> Remember <strong>You Matter To This World.</strong></p>
                 </div>
             </div>
     );
