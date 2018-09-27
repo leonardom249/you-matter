@@ -17,7 +17,7 @@ export class WelcomePage extends Component{
                     <div className="welcome-header">
                         <h1>Welcome to YMTTW!</h1>
                         <div className="circle">
-                                <h3>YMTTW stands for something incredible:</h3>
+                                <h3>YMTTW stands for:</h3>
                                 <h2>You Matter To This World</h2>
                                 <button 
                                     type="submit" 
@@ -40,7 +40,7 @@ export class WelcomePage extends Component{
                         <div className="welcome-header">
                             <h1 className="title">Welcome to YMTTW!</h1>
                             <div className="circle">
-                                <h3>YMTTW stands for something incredible:</h3>
+                                <h3>YMTTW stands for:</h3>
                                 <h2>You Matter To This World</h2>
                                 <button 
                                     type="submit" 
