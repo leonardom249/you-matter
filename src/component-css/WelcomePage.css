@@ -86,10 +86,19 @@ button{
 
 
 /* Welcome Info Section */
-.welcome-info{
+#more-info{
     font-family: 'Indie Flower', cursive;
     text-align: center;
     font-size: 18px;
+    background:linear-gradient(
+            rgba(255, 255, 255, 0.521), 
+            rgba(177, 172, 172, 0.582)
+            );
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom:40px;
 }
 
 .welcome-tagline{

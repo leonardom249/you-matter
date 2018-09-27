@@ -3,6 +3,7 @@ import WelcomePage from './WelcomePage';
 import { Route, withRouter } from 'react-router-dom';
 // import { connect } from 'react-redux';
 import NavBar from './NavBar';
+import '../component-css/App.css'
 
 
 
