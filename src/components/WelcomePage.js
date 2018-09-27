@@ -2,6 +2,7 @@ import React from 'react';
 import { Component } from 'react';
 import MoreInfo from './MoreInfo';
 import {connect} from 'react-redux';
+import {openMoreInfo, closeMoreInfo} from '../actions/more-info';
 import '../component-css/WelcomePage.css'
 
 
@@ -18,8 +19,18 @@ export class WelcomePage extends Component{
                         <div className="circle">
                                 <h3>YMTTW stands for something incredible:</h3>
                                 <h2>You Matter To This World</h2>
-                                <button className="more-info-button"><h3>Close Info</h3></button>
-                        </div>
+                                <button 
+                                    type="submit" 
+                                    className="more-info-button"
+                                    onClick={()=>{
+                                        this.props.dispatch(closeMoreInfo());
+                                }}
+                                >
+                                    <h3>
+                                    Coming Winter 2018!
+                                    <p>Close Information</p>
+                                    </h3>
+                                </button>                        </div>
                     </div>
                     <MoreInfo/>
             </div>
@@ -33,7 +44,15 @@ export class WelcomePage extends Component{
                             <div className="circle">
                                 <h3>YMTTW stands for something incredible:</h3>
                                 <h2>You Matter To This World</h2>
-                                <button className="more-info-button"><h3>Click For More Info</h3></button>
+                                <button 
+                                    type="submit" 
+                                    className="more-info-button"
+                                    onClick={()=>{
+                                        this.props.dispatch(openMoreInfo());
+                                }}
+                                >
+                                    <h3>Click For More Info</h3>
+                                </button>
                             </div>
                     </div>
                 </div>
