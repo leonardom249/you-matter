@@ -8,6 +8,7 @@ export default function MoreInfo (){
         return(
             <div id="more-info">
                 <div className="welcome-info">
+                <h2>You Matter To This World</h2>
                     <p>And you truly do!  Our job is just to let you know that you're here for a reason and we are so happy that you are!</p>
                     <p>As for us, we are a group of individuals who started to feel way too helpless watching friends, loved ones, and the world be brought down day after day.  To the point where some of us think it is better to leave this world than remain a part of it, and many of them leave because they don't realize how much they truly make an impact on others in great and fantastic ways, no matter how small or seemingly insignificant.</p>
                     <p>Well we are here to tell you, even if you don't believe it yet, you have made a positive difference in someones life.  We want to share that and other good things through this website.  We are not doctors, we are not psychiatrists, we can not give you the most perfect advice, but we ARE friends who GENUINLEY care about every individual and the good that everyone inherintely has that goes underappreciated daily.  And we are here to change that underappreciation!</p>

@@ -91,14 +91,15 @@ button{
     text-align: center;
     font-size: 18px;
     background:linear-gradient(
-            rgba(255, 255, 255, 0.521), 
-            rgba(177, 172, 172, 0.582)
+            rgba(255, 255, 255, 0.75), 
+            rgba(177, 172, 172, 0.75)
             );
     padding-top:15px;
     padding-bottom: 15px;
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom:40px;
+    border-radius:10%;
 }
 
 .welcome-tagline{
