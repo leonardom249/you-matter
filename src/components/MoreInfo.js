@@ -18,6 +18,7 @@ export default function MoreInfo (){
                 </div>
                 <div className="welcome-tagline">
                     <p> Remember <strong>You Matter To This World.</strong></p>
+                    <a href="#top">To Top</a>
                 </div>
             </div>
     );

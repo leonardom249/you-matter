@@ -26,11 +26,9 @@ export class WelcomePage extends Component{
                                         this.props.dispatch(closeMoreInfo());
                                 }}
                                 >
-                                    <h3>
-                                    Coming Winter 2018!
-                                    <p>Close Information</p>
-                                    </h3>
-                                </button>                        </div>
+                                    <h3>x Coming Winter 2018!</h3>
+                                </button>                       
+                            </div>
                     </div>
                     <MoreInfo/>
             </div>
@@ -38,7 +36,7 @@ export class WelcomePage extends Component{
         }
         else{
             return(
-                <div className="welcome-page">
+                <div className="welcome-page" id="top">
                         <div className="welcome-header">
                             <h1 className="title">Welcome to YMTTW!</h1>
                             <div className="circle">
@@ -51,7 +49,9 @@ export class WelcomePage extends Component{
                                         this.props.dispatch(openMoreInfo());
                                 }}
                                 >
-                                    <h3>Click For More Info</h3>
+                                    <a href="#more-info">
+                                        <h3>Click For More Info</h3>
+                                    </a>
                                 </button>
                             </div>
                     </div>
