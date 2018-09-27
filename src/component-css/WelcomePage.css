@@ -16,10 +16,10 @@
     text-align: center;
     margin: 0px auto 20px;
     background: 
-    linear-gradient(
+    /* linear-gradient(
     rgba(255, 255, 255, 0.4), 
     rgba(58, 63, 68, 0.6)
-    ),
+    ), */
     url('https://images.unsplash.com/photo-1504280539878-538b933c05b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f5ab5c7acc7188c3128f7974d3e504e5&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb');
 
     -webkit-background-size: cover;
@@ -35,6 +35,7 @@
     margin-bottom: 10px;
     margin-top: 20px;
     text-shadow:2px 2px #D5AD6D;
+    color:rgba(255, 255, 255, 0.822);
 
 }
 
@@ -65,8 +66,9 @@ div.circle{
     width: 500px;
     height: 400px;
     border-radius: 50%;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
     margin: 0px auto 40px;
     padding:5px;
 
@@ -89,16 +91,18 @@ button{
     font-family: 'Indie Flower', cursive;
     text-align: center;
     font-size: 18px;
-    background:linear-gradient(
+    /* background:linear-gradient(
             rgba(255, 255, 255, 0.75), 
             rgba(177, 172, 172, 0.75)
-            );
+            ); */
     padding-top:15px;
     padding-bottom: 15px;
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom:40px;
     border-radius:10%;
+    color: rgba(255, 255, 255, 0.877);
+    background: rgba(0, 0, 0, 0.719);
 }
 
 .welcome-tagline{
